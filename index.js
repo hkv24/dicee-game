@@ -1,3 +1,4 @@
+alert("Refresh Me!");
 var a, b;
 a = Math.floor(Math.random() * 6);
 b = Math.floor(Math.random() * 6);
