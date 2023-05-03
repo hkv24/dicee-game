@@ -45,8 +45,11 @@ else if(b===6) {
 
 
 if(a>b) {
-  document.querySelector("h1").innerHTML = "Player 1 🏁 Wins ";
+  document.querySelector("h1").innerHTML = "🏁 Player 1 Wins ";
+}
+else if(a===b) {
+  document.querySelector("h1").innerHTML = "Draw! ";
 }
 else {
-  document.querySelector("h1").innerHTML = "Player 2 Wins 🏁 ";
+  document.querySelector("h1").innerHTML = "Player 2 wins 🏁 ";
 }
