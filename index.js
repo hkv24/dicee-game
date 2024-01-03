@@ -2,7 +2,7 @@ alert("Refresh Me!");
 var a, b;
 a = Math.floor(Math.random() * 6);
 b = Math.floor(Math.random() * 6);
-a = a  + 1;
+a = a  + 1; // Bcz. Math.floor -> [0,5] and +1 will give [1,6].
 b = b + 1;
 
 if(a===1){
